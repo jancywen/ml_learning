@@ -182,7 +182,7 @@ housing_labels = strat_train_set["median_house_value"].copy()
 print(housing.info())
 
 
-""" Data clear """
+""" Data clean """
 
 # get rid of corresponding districts
 housing.dropna(subset=["total_bedroms"])
